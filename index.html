@@ -9,16 +9,23 @@
 <body>
     <header>
         <div>
-            <h1>Logo-Alura</h1>
+            <img class="logo" src="/imagenes/Logo.png" alt="logo-alura">
         </div>
     </header>
 
     <main>
         <section>
             <label for="texto"></label>
-            <textarea id="texto" cols="30" rows="10">Ingrese el texto aquí</textarea>
-            <a href="http://">Encriptar</a>
-            <a href="">Desencriptar</a>
+            <textarea id="texto" class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h5 class="información">Solo letras minúsculas y sin acentos</h5>
+            </div>
+
+            <div class="botones">
+                <button class="boton-encriptar">Encriptar</button>
+                <button class="boton-desencriptar">Desencriptar</button>
+            </div>
+            
         </section>
         <section>
             <div>
