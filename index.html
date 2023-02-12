@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Encriptador/Desencriptador de texto</title>
 </head>
 <body>
@@ -15,10 +20,9 @@
 
     <main>
         <section>
-            <label for="texto"></label>
-            <textarea id="texto" class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
             <div>
-                <h5 class="información">Solo letras minúsculas y sin acentos</h5>
+                <h5 class="informacion">Solo letras minúsculas y sin acentos</h5>
             </div>
 
             <div class="botones">
@@ -28,8 +32,9 @@
             
         </section>
         <section>
+            <textarea class="mensaje-encriptado" cols="20" rows="10"></textarea>
             <div>
-                <p>Area para ver el texto encriptado o desencriptado</p>
+                <button class="boton-copiar">Copiar</button>
             </div>
         </section>
     </main>
